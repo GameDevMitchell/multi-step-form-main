@@ -1,112 +1,230 @@
-# Frontend Mentor - Multi-step form
+# Multi-Step Form
 
-![Design preview for the Multi-step form coding challenge](preview.jpg)
+A modern, responsive multi-step form built with vanilla JavaScript, HTML5, and CSS3. Features smooth animations, form validation, and a beautiful user interface that works seamlessly across all devices.
 
-## Welcome! 👋
+![Multi-Step Form Preview](./preview.jpg)
 
-Thanks for checking out this front-end coding challenge.
+## ✨ Features
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### 🎯 Core Functionality
+- **5-Step Form Flow**: Personal Info → Select Plan → Add-ons → Summary → Thank You
+- **Smart Navigation**: Step indicators with progress tracking
+- **Form Validation**: Real-time validation with helpful error messages
+- **Data Persistence**: User data preserved across form steps
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+### 🎨 User Experience
+- **Smooth Animations**: Elegant transitions between steps
+- **Interactive Elements**: Hover states, focus indicators, and micro-interactions
+- **Billing Toggle**: Switch between monthly and yearly pricing
+- **Dynamic Pricing**: Real-time price calculations
+- **Change Plan**: Easy navigation back to modify selections
 
-## The challenge
+### 🛠 Technical Features
+- **Semantic HTML5**: Accessible and well-structured markup
+- **Modern CSS**: Flexbox, Grid, and CSS custom properties
+- **Vanilla JavaScript**: No frameworks required
+- **Mobile-First**: Progressive enhancement approach
+- **Cross-Browser Compatible**: Works on all modern browsers
 
-Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
+## 📱 Responsive Design
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Mobile (< 940px)
+- Horizontal step indicators
+- Vertical stacked layout
+- Touch-optimized interactions
+- Compact typography
 
-Your users should be able to:
+### Desktop (≥ 940px)
+- Vertical sidebar with step descriptions
+- Side-by-side layout
+- Enhanced spacing and typography
+- Mouse-optimized interactions
 
-- Complete each step of the sequence
-- Go back to a previous step to update their selections
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Receive form validation messages if:
-  - A field has been missed
-  - The email address is not formatted correctly
-  - A step is submitted, but no selection has been made
+## 🎯 Live Demo
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Experience the multi-step form in action:
+**[Live Demo](https://your-demo-url.com)**
 
-## Where to find everything
+## 📸 Screenshots
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Step 1: Personal Information
+![Personal Info Step](./design/mobile-design-step-1.jpg)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Step 2: Select Plan (Mobile & Desktop)
+![Mobile Plan Selection](./design/mobile-design-step-2-monthly.jpg)
+![Desktop Plan Selection](./design/desktop-design-step-2-monthly.jpg)
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Step 3: Add-ons
+![Add-ons Selection](./design/mobile-design-step-3-monthly.jpg)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### Step 4: Summary
+![Order Summary](./design/mobile-design-step-4-monthly.jpg)
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+### Step 5: Thank You
+![Thank You Page](./design/mobile-design-step-5.jpg)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## 🚀 Getting Started
 
-## Using AI coding assistants
+### Prerequisites
+- Modern web browser
+- Local web server (optional, for development)
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/multi-step-form.git
+   cd multi-step-form
+   ```
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+2. Open `index.html` in your browser or use a local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve .
+   
+   # Then visit http://localhost:8000
+   ```
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+## 🛠 Technologies Used
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+### Frontend
+- **HTML5**: Semantic markup and accessibility
+- **CSS3**: Modern styling with animations
+- **JavaScript (ES6+)**: Interactive functionality
+- **Google Fonts**: Ubuntu font family
 
-## Building your project
+### Tools & Techniques
+- **Responsive Design**: Mobile-first approach
+- **CSS Grid & Flexbox**: Modern layout systems
+- **CSS Custom Properties**: Consistent theming
+- **Form Validation**: HTML5 validation + custom logic
+- **Progressive Enhancement**: Works without JavaScript
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+## 📋 Form Flow
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### 1. Personal Information
+- Name validation
+- Email format validation
+- Phone number validation
+- Required field checking
 
-## Deploying your project
+### 2. Plan Selection
+- Three pricing tiers (Arcade, Advanced, Pro)
+- Monthly/Yearly billing toggle
+- Visual plan comparison
+- 2 months free for yearly plans
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### 3. Add-ons
+- Optional service selections
+- Dynamic pricing display
+- Checkbox interactions
+- Clear service descriptions
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### 4. Order Summary
+- Selected plan details
+- Chosen add-ons list
+- Total price calculation
+- Change plan functionality
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### 5. Confirmation
+- Success message
+- Contact information
+- Clean completion state
 
-## Create a custom `README.md`
+## 🎨 Design System
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Colors
+- **Primary Blue**: `hsl(213, 96%, 18%)`
+- **Accent Purple**: `hsl(243, 100%, 62%)`
+- **Light Blue**: `hsl(206, 94%, 87%)`
+- **Error Red**: `hsl(354, 84%, 57%)`
+- **Neutral Grays**: Various shades for text and backgrounds
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Typography
+- **Font Family**: Ubuntu (400, 500, 700 weights)
+- **Headings**: Responsive scaling from 1.5rem to 2.5rem
+- **Body Text**: 16px base size with proper line height
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Breakpoints
+- **Mobile**: 320px - 939px
+- **Desktop**: 940px and above
+- **Small Mobile**: Up to 480px (enhanced optimizations)
 
-## Submitting your solution
+## 🔧 Customization
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+### Adding New Steps
+1. Add new step HTML to `index.html`
+2. Update step indicators in the sidebar
+3. Add navigation logic to `script.js`
+4. Style accordingly in `styles.css`
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Modifying Colors
+Update CSS custom properties at the top of `styles.css`:
+```css
+:root {
+  --primary-blue: hsl(213, 96%, 18%);
+  --accent-purple: hsl(243, 100%, 62%);
+  /* Add more colors as needed */
+}
+```
 
-## Sharing your solution
+### Changing Plans
+Modify plan data in `script.js`:
+```javascript
+const plans = [
+  { name: 'arcade', price: 9, yearlyPrice: 90 },
+  // Add or modify plans here
+];
+```
 
-There are multiple places you can share your solution:
+## 🌟 Highlights
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### Performance
+- **Lightweight**: No external dependencies
+- **Fast Loading**: Optimized assets and minimal code
+- **Smooth Animations**: CSS-based transitions
+- **Efficient**: Single-page application architecture
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+### Accessibility
+- **Semantic HTML**: Proper heading hierarchy
+- **Keyboard Navigation**: Full keyboard support
+- **Screen Reader**: ARIA labels and descriptions
+- **Focus Management**: Logical tab order
+- **Color Contrast**: WCAG compliant color ratios
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### User Experience
+- **Intuitive Flow**: Clear step progression
+- **Error Prevention**: Real-time validation
+- **Visual Feedback**: Hover and focus states
+- **Responsive**: Works on all devices
+- **Fast**: Smooth interactions and transitions
 
-## Got feedback for us?
+## 📊 Browser Support
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi@frontendmentor.io.
+- ✅ Chrome 60+
+- ✅ Firefox 55+
+- ✅ Safari 12+
+- ✅ Edge 79+
+- ✅ Mobile Safari (iOS 12+)
+- ✅ Chrome Mobile (Android 8+)
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+## 🤝 Contributing
 
-**Have fun building!** 🚀
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern SaaS onboarding flows
+- Color palette and typography guidelines from design systems
+- Frontend Mentor for the challenge specification
+
+---
+
+**Built with ❤️ using vanilla web technologies**
